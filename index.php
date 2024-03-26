@@ -4,7 +4,7 @@ require_once "modules/head.phtml";
 
 $from = "TheMaximeSan";
 $messageId = "12398123089120";
-$message = "Je suis un message test";
+$message = "Je suis un message test Je suis un message test Je suis un message test Je suis un message test Je suis un message test Je suis un message test Je suis un message test Je suis un message test Je suis un message test";
 
 $color = "red"; /* user color */
 $background_color = "transparent";
