@@ -6,18 +6,26 @@
 <!-- <script type="text/template" id="chatlist_item"> -->
   <div data-from="<?= $from ?>" data-id="<?= $messageId ?>">
 
-    <span class="meta" style="color: <?= $color ?>">
+      <div class="parent">
+          <div class="box-logo">
+              <img src="https://tyrolium.fr/Contenu/Image/Client/auroretvv.png" width="50px">
+          </div>
 
-      <span class="badges">
-      </span>
+          <div class="box-msg">
+            <span class="meta" style="color: <?= $color ?>">
 
-      <span class="name"><?= $from ?></span>
+              <span class="badges">
+              </span>
 
-    </span>
+              <span class="name"><?= $from ?></span>
 
-    <span class="message">
-      <?= $message ?>
-    </span>
+            </span>
+
+            <span class="message">
+              <?= $message ?>
+            </span>
+          </div>
+      </div>
 
   </div>
 <!-- </script> -->
